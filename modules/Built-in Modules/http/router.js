@@ -13,6 +13,13 @@ const server = http.createServer((req, res) => {
     res.writeHead(200, { "Content-Type": "application/json" });
     const about = { Name: "Dinesh", age: 24 };
     res.end(JSON.stringify(about));
+  } else if (req.url === "/hello") {
+    res.writeHead(200, { "Content-Type": "text/html" });
+    let name = "React js";
+    console.log(__dirname);
+    let html = fs.readFileSync(__dirname + "/index.html", "utf-8");
+    html = html.replace("{{name}}", name);
+    res.end(html);
   } else {
     res.writeHead(200, { "Content-Type": "text/plain" });
     res.end("Page Not Found");
