@@ -11,4 +11,4 @@ bin:{
     "Cli name":"fileName"
 }
 
-run the Cli name in the command line
+run the Cli name in the command line.
