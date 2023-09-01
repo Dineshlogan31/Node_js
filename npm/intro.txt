@@ -1,0 +1,7 @@
+npm
+
+1.it is the world largest software library
+2.is is a software package manager
+3.npm is the default package manager for node js
+4.npm did stand for nodepackage manager when it first started out
+5.now it is a package manager for the javascript programming language

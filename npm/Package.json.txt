@@ -1,0 +1,23 @@
+what is package.json
+1.package.json is npm configuration file
+2.it is a json file that typically lives in the root directory of your package and holds various metadata
+  relevant to the package
+
+
+  why we use package.json
+  1.package.json is the central place to configure and describe how to interact with and run your package
+  2.it is primarily used by the npm CLI(Command Line Interface)
+
+
+//how to create package.json file defaultly
+  in the cli if you give npm init --yes the default package.json file will created in the root directory
+
+
+  //semantic versioning
+
+  1.0.0
+
+  syntax==>X.Y.Z
+  X-Major change
+  y-Minor change
+  Z-Patch work

@@ -1,0 +1,14 @@
+CLI stands for Command Line Interface
+A program that you can run from the terminal
+
+ex:npm and git
+
+for create basic cli tool create bin object inside package.json file
+
+inside the filename atthe first line mention the interpreter (#! user/bin/env node)
+this is called hashbang it will tells the os which interpreter to use
+bin:{
+    "Cli name":"fileName"
+}
+
+run the Cli name in the command line
